@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+}
+
+.logo-image {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+header ul,
+header li {
+    display: block;
+}
+
+p {
+    line-height: 1.4em;
+    text-indent: 30px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.imagine {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+
+/* .btm{
+        display: block;
+        text-decoration: none;
+        background: rgb(37,52, 179);
+        color: #fff;
+        padding: 5px 20px;
+        text-align: center;
+        border-radius: 4px;
+        margin: 4px;
+        text-shadow: 0 1px 1px #000;
+    }
+    .btn.active{
+        position: relative;
+        top: 1px;
+    } */

@@ -1,0 +1,146 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2 strong {
+    color: rgb(36, 36, 253);
+}
+
+a {
+    color: #4ca1d7;
+}
+
+div.contact_info a:hover {
+    background: rgb(158, 230, 243);
+}
+
+footer {
+    /* padding: 15px; */
+    clear: both;
+}
+
+
+/* текст */
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-indent: 10px
+}
+
+
+/* p:nth-last-child(1) {
+    background: rgb(28, 245, 173)
+} */
+
+p#color {
+    background: rgb(28, 245, 173)
+}
+
+
+/* нафигационный бар */
+
+div main {
+    width: 100px;
+}
+
+nav {
+    background: #4ca1d7;
+}
+
+nav ul {
+    list-style-type: none;
+    display: table;
+    width: 100%;
+}
+
+nav li {
+    display: table-cell;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+nav a:hover {
+    background: rgb(28, 245, 173)
+}
+
+
+/* Остальное */
+
+.partners {
+    background: rgb(247, 218, 104);
+    font-style: oblique;
+}
+
+
+/* Курсы */
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+td,
+th {
+    border: 1px solid rgb(3, 142, 255);
+    padding: 4px 8px;
+}
+
+tr:nth-child(2n+1) {
+    background: rgb(143, 201, 240)
+}
+
+caption {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+tr:first-child {
+    font-weight: bold;
+}
+
+tr:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+/* Контакты */
+
+textarea {
+    width: 450px;
+    height: 150px;
+    resize: none;
+}
+
+.row {
+    padding: 5px;
+}
+
+figure {
+    margin-left: 0px;
+}

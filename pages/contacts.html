@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/style_mobile.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="container">
+                <a href="http://www.specialist.ru" target="_blank">
+                    <img src="/img/logo.gif" alt="logo" class="logo-image" />
+                </a>
+                <h1>
+                    Учебный Центр "Специалист" при МГТУ им. Н.Э.Баумана
+                </h1>
+                <nav>
+                    <div class="main">
+                        <ul>
+                            <li><a href="/index.html">Главная</a></li>
+                            <li><a href="courses.html">Курсы</a></li>
+                            <li><a href="formats.html">Форматы</a></li>
+                            <li><a href="tests.html">Тесты</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <h3>Контакты</h3>
+            <div class=" contact_info ">
+                <div>
+                    Администрация Центра ЦАО, Госпитальный переулок, д. 4/6, 2-ой этаж
+                </div>
+                <div>
+                    Телефон:<a href="tel:+74952323216">+7 (495) 232-32-16</a> E-mail:
+                    <a href="mailto:some@some.some">info@specialist.ru</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Форма связи</h3>
+            <div class="container">
+                <form action="/">
+                    <div class="row">
+                        <label>Как вас зовут</label>
+                        <input type="text" name="firstname" placeholder="Введите имя" value="" />
+                    </div>
+                    <div class="row">
+                        <label>Тема запроса</label>
+
+                        <select name='query'>
+                    <option value="1">Запись на курсы</option>
+                    <option value="2">Предложения по улучшению</option>
+                    <option value="2">Вопросы по оплате</option>              
+                </select>
+                    </div>
+                    <div class="row">
+                        <label>Когдва вам удобнее ожидать ответа?</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" name="r" value="1" checked />Сейчас
+                        <input type="radio" name="r" value="2" />10:00 - 17:00
+                        <input type="radio" name="r" value="3" />17:00 - 20:00
+                    </div>
+                    <div class="row">
+                        <textarea name="msg" cols="40" rows="5" placeholder="введите ваше сообщение"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="c1" value="a" checked /> Соглашаюсь на обработку персональных данных
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Отправить форму" />
+                        <input type="reset" value="Очистить форму" />
+                    </div>
+                </form>
+            </div>
+        </section>
+        <figure>
+            <a href="https://www.specialist.ru/locations" target="_blank">
+                <img src="/img/banner.jpg" alt="webinar" class="imagine" /></a>
+        </figure>
+    </div>
+</body>
+
+</html>
